@@ -1,0 +1,3 @@
+[submodule "ku-coverpage"]
+	path = ku-coverpage
+	url = https://github.com/j08lue/ku-coverpage.git
