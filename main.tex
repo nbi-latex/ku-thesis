@@ -1,0 +1,78 @@
+\documentclass[a4paper,oneside]{memoir}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{wallpaper}
+\usepackage{palatino}
+
+% Setup captions
+%\captionstyle[\centering]{\centering}
+%\changecaptionwidth
+%\captionwidth{0.8\linewidth}
+
+% Protect against widows and orphans
+%\clubpenalty=10000
+%\widowpenalty=10000
+
+%\linespread{1.2}
+
+%\raggedbottom
+
+%\chapterstyle{ger}
+
+%\maxsecnumdepth{subsection}
+
+%%  Setup fancy style quotation
+%%  ==================================================================
+%\usepackage{tikz}
+%\usepackage{framed}
+
+%\newcommand*\quotefont{\fontfamily{fxl}} % selects Libertine for quote font
+
+% Make commands for the quotes
+%\newcommand*{\openquote}{\tikz[remember picture,overlay,xshift=-15pt,yshift=-10pt]
+%     \node (OQ) {\quotefont\fontsize{60}{60}\selectfont``};\kern0pt}
+%\newcommand*{\closequote}{\tikz[remember picture,overlay,xshift=15pt,yshift=5pt]
+%     \node (CQ) {\quotefont\fontsize{60}{60}\selectfont''};}
+
+% select a colour for the shading
+%\definecolor{shadecolor}{rgb}{1,1,1}
+
+% wrap everything in its own environment
+%\newenvironment{shadequote}% 
+%{\begin{snugshade}\begin{quote}\openquote}
+%{\hfill\closequote\end{quote}\end{snugshade}}
+
+%%  Begin document
+%%  ==================================================================
+\begin{document}
+
+%%  Begin title page
+%%  ==================================================================
+    \thispagestyle{empty}
+    \ULCornerWallPaper{1}{ku-coverpage/nat-farve.pdf}
+    \ULCornerWallPaper{1}{ku-coverpage/nat-en.pdf}
+    \begin{adjustwidth}{-3cm}{-1.5cm}
+    \vspace*{-1cm}
+    \textbf{\Huge Type of Thesis} \\
+    \vspace*{2.5cm} \\
+    \textbf{\Huge Title} \\
+    \vspace*{.1cm} \\
+    {\huge Subtitle} \\
+    \begin{tabbing}
+    % adjust the hspace below for the longest author name
+    First Author \hspace{1cm} \= \texttt{<first@author.com>} \\
+    Second Author \> \texttt{<second@author.com>} \\
+    \\[12cm]
+    \textbf{\Large Supervisor} \\
+    Super Visor \> \texttt{<super@visor.com>} \\
+    \end{tabbing}
+    \end{adjustwidth}
+    \newpage
+    \ClearWallPaper
+%%  ==================================================================
+%%  End title page
+
+\end{document}
+%%  ==================================================================
+%%  End document
