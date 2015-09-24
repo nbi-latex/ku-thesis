@@ -1,6 +1,6 @@
 ku-thesis
 ---------
-$\LaTeX$ thesis template for University of Copenhagen
+LaTeX thesis template for University of Copenhagen
 
 Combined with the backgrounds for the different KU departments from [http://www.math.ku.dk/~m00cha/](http://www.math.ku.dk/~m00cha/) provided by the (included) ku-frontpage repo, you can use it as a thesis title page template for any department.
 
