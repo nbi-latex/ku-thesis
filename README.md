@@ -6,11 +6,9 @@ Combined with the backgrounds for the different KU departments from [http://www.
 
 # Example
 
-1. Get the source
-
-    git clone <this repo>
-
+1. Clone this repo.
 2. In `main.tex`, adjust the paths to match your department.
+3. Work from there to adjust the template to your needs.
 
 If there is no header background file for your department, create it based on one of the .doc files included in `ku-frontpage`.
 
